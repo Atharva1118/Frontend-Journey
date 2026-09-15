@@ -254,8 +254,41 @@ height
 
 ---
 
-## Day 1 Completed ✅
+## Semantic HTML
 
-**Topic:** Basic HTML Tags
+Semantic HTML tags clearly describe the purpose of the content they contain.
 
-**Status:** Completed ✅
+### Semantic Tags
+
+| Tag | Purpose |
+|---|---|
+| `<header>` | Defines the header section of a webpage. |
+| `<main>` | Defines the main content of a webpage. |
+| `<section>` | Groups related content together. |
+| `<article>` | Defines self-contained content that can be independently distributed or reused. |
+| `<aside>` | Defines supplementary content related to the main content, such as sidebars or advertisements. |
+| `<footer>` | Defines the footer section of a webpage. |
+| `<nav>` | Used to contain navigational links. |
+
+### Basic Structure
+
+```html
+<header>
+    ...
+</header>
+
+<main>
+    <section>
+        <article>
+            ...
+        </article>
+    </section>
+
+    <aside>
+        ...
+    </aside>
+</main>
+
+<footer>
+    ...
+</footer>
