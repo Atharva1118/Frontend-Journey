@@ -1,10 +1,11 @@
-# HTML - Day 1 Notes
+
+HTML —
+
+1. Basic HTML Structure
 
 HTML stands for HyperText Markup Language. It is used to create and structure webpages.
 
-## 1. Basic HTML Structure
-
-Basic structure of an HTML document:
+Basic Structure
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,151 +14,189 @@ Basic structure of an HTML document:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
 </body>
 </html>
 
-### Important Tags
+Important Tags
 
-<!DOCTYPE html> : Declares that the document uses HTML5.
+<!DOCTYPE html> — Declares that the document uses HTML5.
 
-<html> : The root element of the HTML document.
+<html> — Root element of an HTML document.
 
-<head> : Contains information and metadata about the webpage.
+<head> — Contains information about the webpage.
 
-<body> : Contains the content that is visible in the browser.
+<body> — Contains the visible content of the webpage.
 
-<title> : Sets the title of the webpage, which appears in the browser tab.
+<title> — Defines the title displayed in the browser tab.
 
 
-## 2. Meta Tags
 
-### Character Encoding
+---
+
+2. Meta Tags
+
+Meta tags provide information about the webpage to the browser.
+
+Character Encoding
 
 <meta charset="UTF-8">
 
-Specifies UTF-8 character encoding, which supports a wide range of characters from different languages.
+Specifies the character encoding of the webpage.
 
-### Viewport
+Viewport
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Ensures that the webpage scales correctly on different devices such as mobile phones, tablets and computers.
+Helps the webpage display properly on different screen sizes.
 
 
-## 3. Comments in HTML
+---
 
-Comments are used to write notes in HTML code. They are not displayed in the browser.
+3. Comments
 
-<!-- This is an HTML comment -->
+Comments are used to write notes inside HTML code.
+
+They are not displayed in the browser.
+
+Syntax
+
+<!-- This is a comment -->
 
 
-## 4. Heading Tags
+---
+
+4. Heading Tags
 
 HTML provides six heading tags:
 
-<h1>This is a heading</h1>
-<h2>This is a heading</h2>
-<h3>This is a heading</h3>
-<h4>This is a heading</h4>
-<h5>This is a heading</h5>
-<h6>This is a heading</h6>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 
-<h1> is the highest-level heading.
-<h6> is the lowest-level heading.
-
-Headings are used to organize content.
+<h1> is the highest-level heading, while <h6> is the lowest-level heading.
 
 
-## 5. Paragraph Tag
+---
 
-The <p> tag is used to create a paragraph.
+5. Paragraph Tag
+
+The <p> tag is used to create paragraphs.
+
+Example
 
 <p>This is a paragraph.</p>
 
-Paragraphs are used to group related sentences together and create readable content.
 
+---
 
-## 6. Line Break - <br>
+6. Line Break
 
-The <br> tag is used to create a line break.
+The <br> tag is used to insert a line break.
 
-Example:
+Example
 
 This is line one.<br>
 This is line two.
 
 
-## 7. Image Tag - <img>
+---
 
-The <img> tag is used to display images.
+7. Image Tag
 
-<img src="image.jpg" alt="Description">
+The <img> tag is used to display an image on a webpage.
 
-### Attributes of Image Tag
-
-src : Specifies the path or URL of the image.
-
-alt : Provides alternative text for the image.
-
-Example:
+Syntax
 
 <img src="image.jpg" alt="Description">
 
-If the image is inside another folder:
+Important Attributes
 
-<img src="images/image.jpg" alt="Description">
+src — Specifies the image path or URL.
 
-We can also set the width and height:
+alt — Provides alternative text for the image.
 
-<img src="image.jpg" alt="Description" width="200" height="200">
+width — Sets the width of the image.
 
-
-## 8. Bold, Italic and Underline
-
-### Bold
-
-<b>This text is bold</b>
-
-### Italic
-
-<i>This text is italic</i>
-
-### Underline
-
-<u>This text is underlined</u>
+height — Sets the height of the image.
 
 
-## 9. Big and Small Tags
+Example
 
-### Big
+<img src="image.jpg" alt="My Image" width="300" height="200">
 
-The <big> tag is used to make text relatively bigger.
+Relative Image Path
 
-<big>This text is big</big>
+If the image is inside an images folder:
 
-### Small
-
-The <small> tag is used to make text relatively smaller.
-
-<small>This text is small</small>
+<img src="images/image.jpg" alt="My Image">
 
 
-## 10. Horizontal Rule - <hr>
+---
 
-The <hr> tag is used to create a horizontal line.
+8. Bold, Italic and Underline
+
+Bold
+
+The <b> tag makes text bold.
+
+<b>This is bold text</b>
+
+Italic
+
+The <i> tag makes text italic.
+
+<i>This is italic text</i>
+
+Underline
+
+The <u> tag underlines text.
+
+<u>This is underlined text</u>
+
+
+---
+
+9. Big and Small Text
+
+Big
+
+The <big> tag displays text relatively bigger.
+
+<big>This is big text</big>
+
+Small
+
+The <small> tag displays text relatively smaller.
+
+<small>This is small text</small>
+
+
+---
+
+10. Horizontal Rule
+
+The <hr> tag creates a horizontal line.
+
+Example
 
 <hr>
 
-It can be used to separate content.
+It can be used to separate different sections of a webpage.
 
 
-## 11. Superscript - <sup>
+---
 
-The <sup> tag is used to display text above the normal baseline.
+11. Superscript
 
-Example:
+The <sup> tag displays text above the normal line.
+
+Example
 
 X<sup>2</sup>
 
@@ -166,11 +205,13 @@ Output:
 X²
 
 
-## 12. Subscript - <sub>
+---
 
-The <sub> tag is used to display text below the normal baseline.
+12. Subscript
 
-Example:
+The <sub> tag displays text below the normal line.
+
+Example
 
 H<sub>2</sub>O
 
@@ -178,20 +219,16 @@ Output:
 
 H₂O
 
-It can be used for chemical formulas.
-
-Example:
-
-<p>H<sub>2</sub>O</p>
+It can be used for chemical formulas and similar expressions.
 
 
-## 13. Preformatted Text - <pre>
+---
 
-The <pre> tag is used to display preformatted text.
+13. Preformatted Text
 
-It preserves spaces, line breaks and whitespace.
+The <pre> tag displays text while preserving spaces and line breaks.
 
-Example:
+Example
 
 <pre>
 I
@@ -200,10 +237,12 @@ learning
 HTML
 </pre>
 
-Normal HTML generally ignores extra spaces and line breaks, while <pre> preserves them.
+Unlike normal paragraph text, <pre> preserves the formatting of the text.
 
 
-# Tags Covered Today
+---
+
+Tags Covered Today
 
 <!DOCTYPE html>
 <html>
@@ -212,12 +251,7 @@ Normal HTML generally ignores extra spaces and line breaks, while <pre> preserve
 <title>
 <body>
 
-<h1>
-<h2>
-<h3>
-<h4>
-<h5>
-<h6>
+<h1> to <h6>
 
 <p>
 <br>
@@ -232,8 +266,7 @@ Normal HTML generally ignores extra spaces and line breaks, while <pre> preserve
 <sub>
 <pre>
 
-
-# Attributes Covered Today
+Attributes Covered Today
 
 lang
 charset
@@ -244,13 +277,10 @@ alt
 width
 height
 
+Today's Learning
 
-# Key Learning
+HTML → Structure of a Webpage
+CSS → Styling
+JavaScript → Logic & Interactivity
 
-HTML is used to create and structure webpages.
-
-HTML = Structure
-CSS = Styling
-JavaScript = Logic and Interactivity
-
-Learn → Practice → Build → Commit → Push
+Day 1 completed: Basic HTML Tags ✅
