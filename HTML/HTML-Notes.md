@@ -292,3 +292,24 @@ Semantic HTML tags clearly describe the purpose of the content they contain.
 <footer>
     ...
 </footer>
+
+
+## Opening Links
+
+The `<a>` tag is used to create hyperlinks.
+
+### Target Attribute
+
+The `target` attribute specifies where to open the linked page.
+
+| Value | Purpose |
+|---|---|
+| `_self` | Opens the link in the same tab. |
+| `_blank` | Opens the link in a new tab. |
+
+### Syntax
+
+```html
+<a href="https://www.google.com" target="_self">Google</a>
+
+<a href="https://www.google.com" target="_blank">Google</a>
