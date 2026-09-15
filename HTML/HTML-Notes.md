@@ -1,36 +1,44 @@
 
-HTML —
+
+HTML — Day 1 Notes
 
 1. Basic HTML Structure
 
 HTML stands for HyperText Markup Language. It is used to create and structure webpages.
 
-Basic Structure
+Syntax
 
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<meta>
+
+<title>
+
+</title>
+
 </head>
 
 <body>
 
 </body>
+
 </html>
 
 Important Tags
 
-<!DOCTYPE html> — Declares that the document uses HTML5.
+<!DOCTYPE html> — Declares HTML5.
 
-<html> — Root element of an HTML document.
+<html> — Root element.
 
 <head> — Contains information about the webpage.
 
-<body> — Contains the visible content of the webpage.
+<body> — Contains visible webpage content.
 
-<title> — Defines the title displayed in the browser tab.
+<title> — Defines the browser tab title.
 
 
 
@@ -38,48 +46,53 @@ Important Tags
 
 2. Meta Tags
 
-Meta tags provide information about the webpage to the browser.
+Meta tags provide information about the webpage.
 
 Character Encoding
 
-<meta charset="UTF-8">
+Syntax:
 
-Specifies the character encoding of the webpage.
+<meta charset="UTF-8">
 
 Viewport
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Syntax:
 
-Helps the webpage display properly on different screen sizes.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 ---
 
 3. Comments
 
-Comments are used to write notes inside HTML code.
-
-They are not displayed in the browser.
+Comments are notes written inside HTML code. They are not displayed in the browser.
 
 Syntax
 
-<!-- This is a comment -->
+<!-- Comment -->
 
 
 ---
 
 4. Heading Tags
 
-HTML provides six heading tags:
+HTML provides six heading levels.
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+Syntax
 
-<h1> is the highest-level heading, while <h6> is the lowest-level heading.
+<h1>...</h1>
+
+<h2>...</h2>
+
+<h3>...</h3>
+
+<h4>...</h4>
+
+<h5>...</h5>
+
+<h6>...</h6>
+
+<h1> is the highest-level heading and <h6> is the lowest-level heading.
 
 
 ---
@@ -88,9 +101,9 @@ HTML provides six heading tags:
 
 The <p> tag is used to create paragraphs.
 
-Example
+Syntax
 
-<p>This is a paragraph.</p>
+<p>...</p>
 
 
 ---
@@ -99,42 +112,35 @@ Example
 
 The <br> tag is used to insert a line break.
 
-Example
+Syntax
 
-This is line one.<br>
-This is line two.
+<br>
 
 
 ---
 
 7. Image Tag
 
-The <img> tag is used to display an image on a webpage.
+The <img> tag is used to display images.
 
 Syntax
 
-<img src="image.jpg" alt="Description">
+<img src="..." alt="...">
 
-Important Attributes
+Attributes
 
-src — Specifies the image path or URL.
+src — Image path or URL.
 
-alt — Provides alternative text for the image.
+alt — Alternative text.
 
-width — Sets the width of the image.
+width — Image width.
 
-height — Sets the height of the image.
+height — Image height.
 
 
-Example
+Syntax with Width and Height
 
-<img src="image.jpg" alt="My Image" width="300" height="200">
-
-Relative Image Path
-
-If the image is inside an images folder:
-
-<img src="images/image.jpg" alt="My Image">
+<img src="..." alt="..." width="..." height="...">
 
 
 ---
@@ -143,21 +149,21 @@ If the image is inside an images folder:
 
 Bold
 
-The <b> tag makes text bold.
+Syntax:
 
-<b>This is bold text</b>
+<b>...</b>
 
 Italic
 
-The <i> tag makes text italic.
+Syntax:
 
-<i>This is italic text</i>
+<i>...</i>
 
 Underline
 
-The <u> tag underlines text.
+Syntax:
 
-<u>This is underlined text</u>
+<u>...</u>
 
 
 ---
@@ -166,15 +172,15 @@ The <u> tag underlines text.
 
 Big
 
-The <big> tag displays text relatively bigger.
+Syntax:
 
-<big>This is big text</big>
+<big>...</big>
 
 Small
 
-The <small> tag displays text relatively smaller.
+Syntax:
 
-<small>This is small text</small>
+<small>...</small>
 
 
 ---
@@ -183,11 +189,9 @@ The <small> tag displays text relatively smaller.
 
 The <hr> tag creates a horizontal line.
 
-Example
+Syntax
 
 <hr>
-
-It can be used to separate different sections of a webpage.
 
 
 ---
@@ -196,13 +200,9 @@ It can be used to separate different sections of a webpage.
 
 The <sup> tag displays text above the normal line.
 
-Example
+Syntax
 
-X<sup>2</sup>
-
-Output:
-
-X²
+<sup>...</sup>
 
 
 ---
@@ -211,33 +211,20 @@ X²
 
 The <sub> tag displays text below the normal line.
 
-Example
+Syntax
 
-H<sub>2</sub>O
-
-Output:
-
-H₂O
-
-It can be used for chemical formulas and similar expressions.
+<sub>...</sub>
 
 
 ---
 
 13. Preformatted Text
 
-The <pre> tag displays text while preserving spaces and line breaks.
+The <pre> tag preserves spaces and line breaks in the text.
 
-Example
+Syntax
 
-<pre>
-I
-am
-learning
-HTML
-</pre>
-
-Unlike normal paragraph text, <pre> preserves the formatting of the text.
+<pre>...</pre>
 
 
 ---
@@ -245,42 +232,61 @@ Unlike normal paragraph text, <pre> preserves the formatting of the text.
 Tags Covered Today
 
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
 <meta>
+
 <title>
+
 <body>
 
 <h1> to <h6>
 
 <p>
+
 <br>
+
 <img>
+
 <b>
+
 <i>
+
 <u>
+
 <big>
+
 <small>
+
 <hr>
+
 <sup>
+
 <sub>
+
 <pre>
 
 Attributes Covered Today
 
 lang
+
 charset
+
 name
+
 content
+
 src
+
 alt
+
 width
+
 height
 
-Today's Learning
+Day 1 Completed ✅
 
-HTML → Structure of a Webpage
-CSS → Styling
-JavaScript → Logic & Interactivity
-
-Day 1 completed: Basic HTML Tags ✅
+Topic: Basic HTML Tags
