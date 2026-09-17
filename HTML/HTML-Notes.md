@@ -319,8 +319,65 @@ The `target` attribute specifies where to open the linked page.
 
 The `<a>` tag can be used to create a file download link.
 
+
 ### Syntax
 
 ```html
 <a href="filename.exe">Download File</a>
 ```
+
+
+
+## Div and Span Tags
+
+### Div Tag
+
+The `<div>` tag is a block-level container element used to group HTML elements.
+
+- It does not have semantic meaning on its own.
+- It is commonly used for styling and layout.
+- It starts on a new line.
+- It takes the full available width of its parent by default.
+- It can contain block-level elements, inline elements, and other `<div>` elements.
+- It is commonly used with CSS and JavaScript.
+
+### Syntax
+
+```html
+<div>
+    Content goes here
+</div>
+```
+
+### Span Tag
+
+The `<span>` tag is an inline element used to group or style small parts of content.
+
+- It does not start on a new line.
+- It takes only the required width.
+- It is commonly used with CSS and JavaScript.
+- It can be used inside paragraphs or other elements.
+
+### Syntax
+
+```html
+<span>
+    Content goes here
+</span>
+```
+
+### Difference Between Div and Span
+
+| Feature | `<div>` | `<span>` |
+|---|---|---|
+| Type | Block-level element | Inline element |
+| New line | Starts on a new line | Does not start on a new line |
+| Width | Takes available width by default | Takes required width |
+| Usage | Groups larger sections of content | Groups small parts of content |
+| Layout | Used for structure and layout | Used for inline content and styling |
+
+### Important Points
+
+- Block-level elements generally start on a new line.
+- Inline elements generally remain on the same line.
+- `<div>` and `<span>` do not have semantic meaning by themselves.
