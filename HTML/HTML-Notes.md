@@ -313,3 +313,12 @@ The `target` attribute specifies where to open the linked page.
 <a href="https://www.google.com" target="_self">Google</a>
 
 <a href="https://www.google.com" target="_blank">Google</a>
+
+## File Download Using HTML
+
+The `<a>` tag can be used to create a file download link.
+
+### Syntax
+
+```html
+<a href="filename.exe">Download File</a>
