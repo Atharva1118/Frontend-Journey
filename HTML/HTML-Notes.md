@@ -381,3 +381,35 @@ The `<span>` tag is an inline element used to group or style small parts of cont
 - Block-level elements generally start on a new line.
 - Inline elements generally remain on the same line.
 - `<div>` and `<span>` do not have semantic meaning by themselves.
+
+
+## Image as a Link
+
+An image can be made clickable by placing the `<img>` tag inside the `<a>` tag.
+
+### Syntax
+
+```html
+<a href="https://example.com">
+    <img src="image.jpg" alt="Image">
+</a>
+```
+
+## Website Links
+
+The `<a>` tag is used to create hyperlinks to other webpages.
+
+### Syntax
+
+```html
+<a href="https://www.google.com" target="_blank">
+    Google
+</a>
+```
+
+### Important Points
+
+- `href` specifies the destination URL.
+- `target="_blank"` opens the link in a new tab.
+- `<br>` creates a line break between links.
+- An image can be used as a clickable link.
