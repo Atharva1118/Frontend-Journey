@@ -665,3 +665,52 @@ Forms allow users to enter data and interact with websites.
 Created `forms.html` to practice HTML form elements and input types.
 
 **Note:** CSS in the practice file is AI-generated and will be studied separately.
+
+
+## Embedding Videos in HTML
+
+The `<video>` tag is used to embed videos in an HTML webpage.
+
+### Video Tag
+
+**Syntax:**
+
+```html
+<video src="video.mp4" controls>
+    Your browser does not support the video tag.
+</video>
+```
+
+### Video Attributes
+
+| Attribute | Description |
+|---|---|
+| `src` | Specifies the video file path |
+| `autoplay` | Automatically starts the video |
+| `muted` | Mutes the video audio |
+| `controls` | Displays video controls |
+| `loop` | Repeats the video continuously |
+| `width` | Specifies video width |
+| `height` | Specifies video height |
+| `poster` | Displays an image before playback |
+| `preload` | Specifies how the video should be loaded |
+
+### Source Tag
+
+The `<source>` tag specifies a media file and its type.
+
+**Example:**
+
+```html
+<video width="640" controls>
+    <source src="harry.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+```
+
+### Practice
+
+Created `video.html` to practice embedding videos in HTML.
+
+**Note:** CSS is not yet learned.
+```
