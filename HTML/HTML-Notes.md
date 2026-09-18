@@ -714,3 +714,41 @@ Created `video.html` to practice embedding videos in HTML.
 
 **Note:** CSS is not yet learned.
 ```
+
+
+## Iframes in HTML
+
+An **iframe** is an HTML element used to embed another HTML document or external content inside the current webpage.
+
+The `<iframe>` tag is commonly used to embed:
+- YouTube videos
+- Maps
+- Other webpages (if embedding is allowed)
+
+### Common Iframe Attributes
+
+| Attribute | Description |
+|---|---|
+| `src` | Specifies the URL of the content to embed. |
+| `width` | Specifies the width of the iframe. |
+| `height` | Specifies the height of the iframe. |
+| `frameborder` | Specifies whether the iframe has a border (`0` = no border, `1` = border). |
+| `allowfullscreen` | Allows the embedded content to open in fullscreen mode. |
+
+### Example
+
+```html
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/VIDEO_ID"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+```
+
+### Important Note
+
+Websites must allow embedding for their content to work inside an iframe. Some websites restrict iframe embedding.
+
+**Note:** `frameborder` is deprecated in HTML5. CSS is generally used for styling borders, which will be studied separately.
