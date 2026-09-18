@@ -713,7 +713,7 @@ The `<source>` tag specifies a media file and its type.
 Created `video.html` to practice embedding videos in HTML.
 
 **Note:** CSS is not yet learned.
-```
+
 
 
 ## Iframes in HTML
