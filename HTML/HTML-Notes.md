@@ -413,3 +413,115 @@ The `<a>` tag is used to create hyperlinks to other webpages.
 - `target="_blank"` opens the link in a new tab.
 - `<br>` creates a line break between links.
 - An image can be used as a clickable link.
+
+
+## Lists in HTML
+
+Lists are used to organize and group related items in HTML.
+
+### Types of Lists
+
+HTML provides three main types of lists:
+
+1. Ordered List
+2. Unordered List
+3. Definition List
+
+### 1. Ordered List (`<ol>`)
+
+- Used when the order of items matters.
+- Items are numbered automatically.
+- `<li>` defines each list item.
+
+**Syntax:**
+
+```html
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
+```
+
+**Type Attribute:**
+
+The `type` attribute changes the numbering style.
+
+| Type | Description |
+|---|---|
+| `1` | Numbers (default) |
+| `A` | Uppercase letters |
+| `a` | Lowercase letters |
+| `I` | Uppercase Roman numerals |
+| `i` | Lowercase Roman numerals |
+
+**Example:**
+
+```html
+<ol type="A">
+    <li>First item</li>
+    <li>Second item</li>
+</ol>
+```
+
+### 2. Unordered List (`<ul>`)
+
+- Used when the order of items does not matter.
+- Items are displayed with bullet points.
+- `<li>` defines each list item.
+
+**Syntax:**
+
+```html
+<ul>
+    <li>Milk</li>
+    <li>Bread</li>
+    <li>Eggs</li>
+</ul>
+```
+
+**Type Attribute:**
+
+The `type` attribute changes the bullet style.
+
+| Type | Description |
+|---|---|
+| `disc` | Filled circle |
+| `circle` | Hollow circle |
+| `square` | Square |
+
+**Example:**
+
+```html
+<ul type="square">
+    <li>Milk</li>
+    <li>Bread</li>
+</ul>
+```
+
+### 3. Definition List (`<dl>`)
+
+- Used to define terms and their descriptions.
+- `<dl>` defines the description list.
+- `<dt>` defines the term.
+- `<dd>` defines the description.
+
+**Syntax:**
+
+```html
+<dl>
+    <dt>HTML</dt>
+    <dd>Hypertext Markup Language</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+</dl>
+```
+
+### Practice
+
+Created `lists.html` to practice:
+
+- Ordered List
+- Unordered List
+- Definition List
