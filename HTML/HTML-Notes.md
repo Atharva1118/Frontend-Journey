@@ -606,3 +606,62 @@ Created `tables.html` to practice:
 - Table header and body
 - Colspan
 - AI-generated CSS styling
+
+
+## Forms in HTML
+
+Forms allow users to enter data and interact with websites.
+
+### Common Form Elements
+
+| Tag | Description |
+|---|---|
+| `<form>` | Container for form elements |
+| `<input>` | Creates input fields |
+| `<label>` | Defines a label for an input |
+| `<textarea>` | Creates a multi-line text field |
+| `<select>` | Creates a dropdown list |
+| `<option>` | Defines an option in a dropdown |
+| `<button>` | Creates a clickable button |
+
+### Form Attributes
+
+| Attribute | Description |
+|---|---|
+| `action` | Specifies where form data is sent |
+| `method` | Specifies the HTTP method, such as GET or POST |
+| `for` | Associates a label with an element's `id` |
+| `type` | Specifies the input or button type |
+| `name` | Identifies form data |
+| `placeholder` | Displays a hint inside an input |
+| `required` | Makes a field mandatory |
+| `id` | Provides a unique identifier |
+| `value` | Specifies the input's value |
+
+### Common Input Types
+
+- `text` — Single-line text
+- `tel` — Telephone number
+- `email` — Email address
+- `password` — Masked password input
+- `number` — Numeric input
+- `date` — Date selection
+- `radio` — Select one option from a group
+- `checkbox` — Select one or more options
+
+### Example
+
+```html
+<form action="/submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username" required>
+
+    <button type="submit">Submit</button>
+</form>
+```
+
+### Practice
+
+Created `forms.html` to practice HTML form elements and input types.
+
+**Note:** CSS in the practice file is AI-generated and will be studied separately.
