@@ -1,4 +1,4 @@
-# HTML — Day 1 Notes
+
 
 HTML stands for **HyperText Markup Language**. It is used to create and structure webpages.
 
@@ -525,3 +525,84 @@ Created `lists.html` to practice:
 - Ordered List
 - Unordered List
 - Definition List
+
+
+
+## Tables in HTML
+
+Tables are used to display data in a structured format using rows and columns.
+
+### Basic Table Tags
+
+| Tag | Description |
+|---|---|
+| `<table>` | Defines the table |
+| `<tr>` | Defines a table row |
+| `<th>` | Defines a table header cell |
+| `<td>` | Defines a table data cell |
+| `<thead>` | Defines the table header section |
+| `<tbody>` | Defines the table body section |
+
+### Basic Table Example
+
+```html
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+    </tr>
+
+    <tr>
+        <td>Harry</td>
+        <td>Developer</td>
+    </tr>
+</table>
+```
+
+### Table Attributes
+
+| Attribute | Description |
+|---|---|
+| `border` | Specifies the table border width |
+| `cellpadding` | Space between cell content and border |
+| `cellspacing` | Space between table cells |
+| `width` | Specifies table width |
+| `height` | Specifies table height |
+| `align` | Specifies table alignment |
+| `bgcolor` | Specifies background color |
+
+**Note:** These are traditional HTML table attributes. CSS is commonly used for modern table styling.
+
+### Colspan
+
+The `colspan` attribute merges multiple columns into one cell.
+
+**Example:**
+
+```html
+<tr>
+    <td colspan="2">Merged Cell</td>
+</tr>
+```
+
+### Rowspan
+
+The `rowspan` attribute merges multiple rows into one cell.
+
+**Example:**
+
+```html
+<tr>
+    <td rowspan="2">Merged Cell</td>
+    <td>Data 1</td>
+</tr>
+```
+
+### Practice
+
+Created `tables.html` to practice:
+
+- Basic HTML tables
+- Table header and body
+- Colspan
+- AI-generated CSS styling
