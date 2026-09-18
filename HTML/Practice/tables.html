@@ -1,0 +1,157 @@
+<!-- Tables in HTML:
+Tables are used to display data in a structured format using rows and columns. The main tags used to create tables in HTML are:
+1. <table>: This tag defines the table element and serves as a container for all other table-related tags.
+2. <tr>: This tag defines a table row. Each row can contain one or more table cells.
+3. <th>: This tag defines a table header cell. Header cells are typically used to label columns or rows and are displayed in bold text by default.
+4. <td>: This tag defines a table data cell. Data cells contain the actual content of the table and are displayed in regular text by default.
+Example of a simple table:
+<table> 
+    <tr>  
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+    </tr>
+    <tr>
+        <td>Data 1</td> 
+        <td>Data 2</td>
+        <td>Data 3</td>
+    </tr>
+    <tr>
+        <td>Data 4</td>
+        <td>Data 5</td>
+        <td>Data 6</td>
+    </tr>
+</table>
+
+Attributes of Table Tag:
+The <table> tag can have various attributes that define its appearance and behavior. Some common attributes include:
+1. border: Specifies the width of the table border. For example, border="1" creates a table with a 1-pixel border.
+2. cellpadding: Specifies the amount of space between the cell content and the cell border. For example, cellpadding="10" adds 10 pixels of padding inside each cell.
+3. cellspacing: Specifies the amount of space between table cells. For example, cellspacing="5" adds 5 pixels of space between cells.
+4. width: Specifies the width of the table. For example, width="500" sets the table width to 500 pixels. You can also use percentages (e.g., width="50%") to make the table responsive.
+5. height: Specifies the height of the table. For example, height="300" sets the table height to 300 pixels. Similar to width, you can use percentages for responsive design.
+6. align: Specifies the alignment of the table on the page. For example, align="center" centers the table horizontally.
+7. bgcolor: Specifies the background color of the table. For example, bgcolor="#f0f0f0" sets a light gray background color for the table. You can use color names, hex codes, or RGB values. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        th,
+        td {
+            padding: 16px;
+            text-align: center;
+            border-bottom: 2px solid #e5e7eb;
+            border: 2px solid black;
+        }
+
+        th {
+            font-size: 16px;
+        }
+
+        td {
+            color: #334155;
+        }
+
+        tbody tr:hover {
+            background-color: #eff6ff;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tables in HTML</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td>Developer</td>
+                <td>$50,000</td>
+            </tr>
+
+            <tr>
+                <td>Emma</td>
+                <td>Designer</td>
+                <td>$45,000</td>
+            </tr>
+
+            <tr>
+                <td>Michael</td>
+                <td>Manager</td>
+                <td>$60,000</td>
+            </tr>
+
+            <tr>
+                <td>Renuka</td>
+                <td>Analyst</td>
+                <td>$40,000</td>
+            </tr>
+
+            <tr>
+                <td>Thanks</td>
+                <td colspan="2">For Watching</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- Colspan and Rowspan in HTML Tables:
+1. Colspan: The colspan attribute is used to merge multiple columns into a single cell. It allows a cell to span across multiple columns in a table. For example, if you want a cell to span across two columns, you can use colspan="2" in the <td> or <th> tag.
+Example:
+<tr >
+    <td colspan="2">Merged Cell</td>
+    <td>Regular Cell</td>
+</tr>
+2. Rowspan: The rowspan attribute is used to merge multiple rows into a single cell. It allows a cell to span across multiple rows in a table. For example, if you want a cell to span across two rows, you can use rowspan="2" in the <td> or <th> tag.
+Example:
+<tr>
+    <td rowspan="2">Merged Cell</td>
+    <td>Regular Cell 1</td>
+</tr> -->
